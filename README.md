@@ -17,3 +17,7 @@
         if not __async_engine:
             await criar_banco_de_dados() # MySQL (Banco ativo)
             # await criar_banco_de_dados(sqlite=True) # SQLite (linha comentada)
+
+- Principais tecnologias:
+    - SQLAlchemy é uma biblioteca ORM (Object-Relational Mapping).
+    - Módulo asyncio que é usado para escrever código assíncrono,  onde devido grande volume de dados pode ocorrer atraso de resposta.
