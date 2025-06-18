@@ -18,6 +18,7 @@
             await criar_banco_de_dados() # MySQL (Banco ativo)
             # await criar_banco_de_dados(sqlite=True) # SQLite (linha comentada)
 
+- Estrutura do Banco de Dados:
 ![Relacionamento do banco de dados.pmg](<Relacionamento do banco de dados.png>)
 
 - Principais tecnologias:
